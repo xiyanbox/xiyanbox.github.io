@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>My New Post | 谈爱恨、不能潦草</title>
+  <title>vue页面echart不渲染 | 谈爱恨、不能潦草</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="first test1const name = &amp;quot;simida&amp;quot;">
+  <meta name="description" content="vue页面在异步请求接口后echarts没有渲染到页面上 首先分析原因：是由于接口是异步的需要时间去请求资源，而在这个时间段内echarts已经完成了初始化。  解决办法：方法A 1、定义一个变量renderCharts置为false. 1let renderCharts = false;  2、在请求成功后将renderCharts置为true 123if(res.code===&apos;sucess&apos;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My New Post">
-<meta property="og:url" content="http://yoursite.com/2019/05/22/My-New-Post/index.html">
+<meta property="og:title" content="vue页面echart不渲染">
+<meta property="og:url" content="http://yoursite.com/2019/05/23/My-New-Post/index.html">
 <meta property="og:site_name" content="谈爱恨、不能潦草">
-<meta property="og:description" content="first test1const name = &amp;quot;simida&amp;quot;">
+<meta property="og:description" content="vue页面在异步请求接口后echarts没有渲染到页面上 首先分析原因：是由于接口是异步的需要时间去请求资源，而在这个时间段内echarts已经完成了初始化。  解决办法：方法A 1、定义一个变量renderCharts置为false. 1let renderCharts = false;  2、在请求成功后将renderCharts置为true 123if(res.code===&apos;sucess&apos;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-22T15:52:21.727Z">
+<meta property="og:updated_time" content="2019-05-23T15:35:19.055Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My New Post">
-<meta name="twitter:description" content="first test1const name = &amp;quot;simida&amp;quot;">
+<meta name="twitter:title" content="vue页面echart不渲染">
+<meta name="twitter:description" content="vue页面在异步请求接口后echarts没有渲染到页面上 首先分析原因：是由于接口是异步的需要时间去请求资源，而在这个时间段内echarts已经完成了初始化。  解决办法：方法A 1、定义一个变量renderCharts置为false. 1let renderCharts = false;  2、在请求成功后将renderCharts置为true 123if(res.code===&apos;sucess&apos;">
   
     <link rel="alternative" href="/atom.xml" title="谈爱恨、不能潦草" type="application/atom+xml">
   
@@ -89,10 +89,6 @@
 		        
 					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
 		        
-					<a class="qq" target="_blank" href="/305472539" title="qq"><i class="icon-qq"></i></a>
-		        
-					<a class="weixin" target="_blank" href="/m5637379" title="weixin"><i class="icon-weixin"></i></a>
-		        
 					<a class="mail" target="_blank" href="mailto:13735800742@163.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
@@ -136,10 +132,6 @@
 			        
 						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
-						<a class="qq" target="_blank" href="/305472539" title="qq"><i class="icon-qq"></i></a>
-			        
-						<a class="weixin" target="_blank" href="/m5637379" title="weixin"><i class="icon-weixin"></i></a>
-			        
 						<a class="mail" target="_blank" href="mailto:13735800742@163.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
@@ -173,20 +165,30 @@
         
   
     <h1 class="article-title" itemprop="name">
-      My New Post
+      vue页面echart不渲染
     </h1>
   
 
         
-        <a href="/2019/05/22/My-New-Post/" class="archive-article-date">
-  	<time datetime="2019-05-22T15:28:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-22</time>
+        <a href="/2019/05/23/My-New-Post/" class="archive-article-date">
+  	<time datetime="2019-05-23T15:20:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-23</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="first-test"><a href="#first-test" class="headerlink" title="first test"></a>first test</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const name = &quot;simida&quot;</span><br></pre></td></tr></table></figure>
+        <h2 id="vue页面在异步请求接口后echarts没有渲染到页面上"><a href="#vue页面在异步请求接口后echarts没有渲染到页面上" class="headerlink" title="vue页面在异步请求接口后echarts没有渲染到页面上"></a>vue页面在异步请求接口后echarts没有渲染到页面上</h2><blockquote>
+<p>首先分析原因：是由于接口是异步的需要时间去请求资源，而在这个时间段内echarts已经完成了初始化。</p>
+</blockquote>
+<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><h4 id="方法A"><a href="#方法A" class="headerlink" title="方法A"></a>方法A</h4><p> 1、定义一个变量renderCharts置为false.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> renderCharts = <span class="literal">false</span>;</span><br></pre></td></tr></table></figure>
+<p> 2、在请求成功后将renderCharts置为true</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(res.code===<span class="string">'sucess'</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> renderCharts = <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 3、在echarts标签上使用v-if来控制是否渲染</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a-charts</span> <span class="attr">v-if</span>=<span class="string">"renderCharts"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="方法b"><a href="#方法b" class="headerlink" title="方法b"></a>方法b</h4><p>在请求完接口后再setOption()</p>
+
       
 
       
@@ -265,7 +267,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/22/My-New-Post/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/23/My-New-Post/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,8 +282,8 @@
 <nav id="article-nav">
   
   
-    <a href="/2019/05/22/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2019/05/23/vue页面echart不渲染/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">vue页面echart不渲染</div>
       <i class="icon-circle-right"></i>
     </a>
   
